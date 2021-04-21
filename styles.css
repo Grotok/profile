@@ -1,0 +1,143 @@
+*,
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(68, 68, 68);
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(125, 128, 128);
+    border-radius: 10px;
+    margin: 10px 100px;
+    position: sticky;
+    z-index: 10;
+}
+
+.name {
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 2px;
+    font-size: 2em;
+    color: rgb(37, 37, 37);
+    text-shadow: 2px 2px 4px darkmagenta;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(125, 128, 128);
+    border-radius: 10px;
+    margin: 10px 100px;
+    position: sticky;
+    z-index: 10;
+}
+
+.link {
+    margin: 10px 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkmagenta;
+    text-shadow: 1px 1px 2px black;
+}
+
+.link:hover {
+    text-shadow: 2px 2px 2px black;
+    color: rgb(156, 2, 156);
+}
+
+.dev-skills {
+    width: 100vw;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: darkmagenta;
+}
+
+.fab {
+    margin-right: 50px;
+}
+
+.project-container {
+    width: 100vw;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: darkmagenta;
+}
+
+.about-me {
+    width: 100vw;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: darkmagenta;
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    width: 100px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 100px;
+    color: rgb(177, 177, 177);
+    text-shadow: 2px 2px 2px black;
+    font-size: 1.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.project-container {
+    padding: 20px;
+}
+
+.fab {
+    font-size: 2.5em;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .name {
+        font-size: 1em;
+    }
+    .link {
+        font-size: 1em;
+        margin: 10px 10px;
+    }
+    img {
+        width: 150px;
+    }
+    header {
+        margin: 10px;
+    }
+    section {
+        margin: 10px;
+        font-size: 1em;
+    }
+    .links {
+        margin: 10px;
+    }
+    .fab {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1em;
+    }
+}
